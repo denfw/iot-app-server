@@ -19,7 +19,7 @@ script:
 
 deploy:
     provider: releases
-    file: /home/travis/build/soukudom/iot-app-server/opc-plugin/iox-opc-aarch64/package.tar
+    file: /home/travis/build/denfw/iot-app-server/opc-plugin/iox-opc-aarch64/package.tar
     skip_cleanup: true
     token: $GITHUB_TOKEN
     overwrite: true
